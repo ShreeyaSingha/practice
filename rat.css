@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Henny+Penny&family=Mouse+Memoirs&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 244, 38);
+}
+header{
+    /* background: rgb(220, 244, 38); */
+    height: 265px;
+    width: 100%;
+}
+.logo{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    /* background: red; */
+}
+.logo img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.pagename{
+    display: inline-block;
+    height: 160px;
+    width: 1100px;
+    padding-top: 40px;
+    text-align: center;
+    vertical-align: top;
+    /* background: blue; */
+}
+.pagename h1{
+    display: inline-block;
+    font-family: Mouse Memoirs;
+    /* width: 100%; */
+    font-size: 80px;
+    margin: 10px 0;
+    vertical-align: middle;
+}
+.slogan{
+    display: inline-block;
+    font-family: Henny Penny;
+    vertical-align: bottom;
+    margin-left: 50px;
+    padding: 10px;
+    /* background: green; */
+}
+nav{
+    background: rgba(131, 118, 0, 0.552);
+    height: 50px;
+    /* margin-top: 0; */
+    padding: 5px;
+    vertical-align: middle;
+}
+nav ul{
+    margin-left: 200px;
+    /* text-align: center; */
+}
+nav ul li{
+    display: inline; 
+    /* margin: 20px;
+    background: rgb(74, 74, 68);
+    padding: 10px;
+    border-radius: 10px; 
+    vertical-align: middle; */
+    text-align: center;
+}
+nav ul li a{
+    margin: 20px;
+    background: rgb(74, 74, 68);
+    padding: 10px 70px;
+    border-radius: 10px;
+    font-family: Fredoka;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+nav ul li a:hover{
+    background: white;
+    color: rgb(74, 74, 68);
+}
+
+footer{
+    background: rgb(74, 74, 68);
+    position: bottom;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Fredoka;
+}
+footer p{
+    display: inline;
+    padding: 40px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+h2{
+    font-family: Mouse Memoirs;
+    margin-left: 400px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+div.container{
+    display: inline-block;
+}
+
+.leftside{
+    width: 320px;
+    height: 800px;
+    display: inline-block;
+    margin-right: 36px;
+    vertical-align: middle;
+    background: red;
+}
+div.jokecard{
+    display: inline-block;
+    vertical-align: middle;
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    background: rgb(242, 240, 237);
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.jokecard img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.jokecard h3{
+    font-family: Henny Penny;
+    margin: 0;
+    /* text-align: center; */
+}
+.jokecard p{
+    font-family: Henny Penny;
+    text-align: left;
+    margin: 10px;
+    line-height: 3;
+}
+
+.rightside{
+    width: 1300px;
+    display: inline-block;
+    vertical-align: top;
+    background: blue;
+    margin-right: 0px;
+    text-align: right;
+}
+div.card{
+    display: inline-block;
+    background: rgb(242, 240, 237);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    margin: 20px;
+    text-align: center;
+}
+div.card h3{
+    font-family: Mouse Memoirs;
+}
+div.card img{
+    border-radius: 50%;
+    height:130px;
+    width:130px;
+}
+div.card p{
+    font-family: Fredoka;
+}
+div.card ul{
+    font-family: Fredoka;
+    text-align: left;
+}
