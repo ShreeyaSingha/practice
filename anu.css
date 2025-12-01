@@ -1,0 +1,188 @@
+
+body{
+    background: lightpink;
+}
+    
+header {
+    display: flex;
+    background: lightskyblue;
+    padding: 15px;
+}
+
+header img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+header h1{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    background: lightblue;
+    height: 25px;
+    gap: 30px;
+}
+
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+nav a:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.container{
+    background: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    height: 520px;
+}
+
+.container div:first-child{
+    border-radius: 5px;
+    border-color: black;
+    background: white;
+    width: 170px;
+    margin-top: 80px;
+    margin-left:10px ;
+    padding: 20px;
+}
+
+.container div:first-child table, th, td {
+    border: 2px solid plum;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 40px;
+    column-width: 40px;
+}
+
+.container div:first-child b{
+    padding: 3px;
+}
+
+.container div:first-child img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-left: 35px;
+    padding: 10px;
+}
+
+.container div:first-child span{
+    justify-content: center;
+    text-align: center;
+}
+
+.container div:nth-child(2){
+    border-radius: 5px;
+    border-color: black;
+    background: white;
+    width: 400px;
+    margin-left:260px ;
+    margin-top: -400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div:nth-child(2) img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 145px;     
+}
+
+.container div:nth-child(3){
+    border-radius: 5px;
+    border-color: black;
+    background: white;
+    width: 400px;
+    margin-left:260px ;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div:nth-child(3) img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 145px;     
+}
+
+.container div:nth-child(4){
+    border-radius: 5px;
+    border-color: black;
+    background: white;
+    width: 400px;
+    margin-left:740px ;
+    margin-top: -430px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div:nth-child(4) img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 145px;     
+}
+
+.container div:nth-child(5){
+    border-radius: 5px;
+    border-color: black;
+    background: white;
+    width: 400px;
+    margin-left:740px ;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container div:nth-child(5) img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 145px;     
+}
+
+.container div:last-child{
+    border-radius: 5px;
+    border-color: black;
+    background: white;
+    width: 170px;
+    margin-top: -430px;
+    margin-left:1260px ;
+    padding: 20px;
+}
+
+.container div:last-child form{
+    padding: 5px;
+}
+
+.container div:last-child form input[type="button"]{
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.footer{
+    background: lightgreen;
+}
